@@ -4,10 +4,10 @@
 # ---------------------------------------------------------------
 
 # Site
-title: Be Geeky
+title: Albatross
 subtitle:
-description: "Hobby = Specialty"
-author: Eunji Lee
+description: MIS, Cryptocurrency, Statistics, Data Analysis
+author: HJK
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
 date_format: '%Y-%m-%d'
@@ -217,7 +217,7 @@ font:
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
   #LinkLabel: Link
-  GitHub: "http://www.github.com/assaeunji"
+  GitHub: "https://github.com/Albatrosses-reply"
 
 
 # Social Links Icons
@@ -229,7 +229,7 @@ social_icons:
   enable: false
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
-  GitHub: "http://www.github.com/assaeunji"
+  GitHub: "https://github.com/Albatrosses-reply"
 
 
 # Sidebar Avatar
