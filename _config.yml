@@ -217,7 +217,7 @@ font:
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
   #LinkLabel: Link
-  GitHub: "http://www.github.com/assaeunji"
+  #GitHub: 
 
 
 # Social Links Icons
@@ -229,7 +229,7 @@ social_icons:
   enable: false
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
-  GitHub: "http://www.github.com/assaeunji"
+  #GitHub: 
 
 
 # Sidebar Avatar
