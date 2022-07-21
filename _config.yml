@@ -4,20 +4,21 @@
 # ---------------------------------------------------------------
 
 # Site
-title: Albatrosses-Blog
+title: Albatrosses - Blog
 subtitle:
 description: MIS, Statistics, Economy
-author: Hojun Kang
+author: HJK
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
-date_format: '%d-%m-%Y'
+date_format: '%Y-%m-%d'
+
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url:
+url: 
 baseurl:
 # permalink: pretty
-permalink: /:categories/:day-:month-:year-:title/
+permalink: /:categories/:year-:month-:day-:title/
 
 # Pagination
 paginate: 10
@@ -80,7 +81,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Statistics"
+keywords: "Bayesian", "MIS", "Statistics"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -214,8 +215,9 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
+social:
   #LinkLabel: Link
+  GitHub: "http://www.github.com/assaeunji"
 
 
 # Social Links Icons
@@ -224,17 +226,15 @@ font:
 #   Key is the name of the item and value is the name of FontAwesome icon. Key is case-senstive.
 #   When an globe mask icon presenting up means that the item has no mapping icon.
 social_icons:
-  enable: true
+  enable: false
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
-  GitHub: https://github.com/Albatrosses-reply
-  #Twitter: twitter
-  #Weibo: weibo
+  GitHub: "http://www.github.com/assaeunji"
 
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-#avatar:
+avatar: "../../images/meavatar.png"
 
 
 # Table Of Contents in the Sidebar
@@ -318,7 +318,7 @@ post_meta:
 # Post wordcount display settings
 post_wordcount:
   item_text: true
-  wordcount: false
+  wordcount: true
   min2read: false
   separated_meta: true
 
@@ -363,7 +363,7 @@ highlight_theme: normal
 
 # MathJax Support
 mathjax:
-  enable: false
+  enable: true
   per_page: false
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
@@ -382,7 +382,7 @@ han: false
 # Disqus
 disqus:
   enable: true
-  shortname: AlbaBlog
+  shortname: eunjis-blog
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
@@ -463,7 +463,7 @@ gitalk:
 #google_site_verification:
 
 # Google Analytics
-# google_analytics:
+google_analytics: UA-131755578-1
 
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/
@@ -516,7 +516,7 @@ vkontakte_api:
 # Star rating support to each article.
 # To get your ID visit https://widgetpack.com
 rating:
-  enable: false
+  enable: true
   id:     #<app_id>
   color:  fc6423
 
