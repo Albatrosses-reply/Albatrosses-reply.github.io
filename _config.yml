@@ -4,10 +4,10 @@
 # ---------------------------------------------------------------
 
 # Site
-title: Albatrosses-Blog
+title: Be Geeky
 subtitle:
-description: MIS, Statistics, Economy
-author: HJK
+description: "Hobby = Specialty"
+author: Eunji Lee
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
 date_format: '%Y-%m-%d'
@@ -81,7 +81,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Bayesian", "MIS", "Statistics"
+keywords: "Bayesian"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -217,7 +217,7 @@ font:
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
   #LinkLabel: Link
-  #GitHub: 
+  GitHub: "http://www.github.com/assaeunji"
 
 
 # Social Links Icons
@@ -229,7 +229,7 @@ social_icons:
   enable: false
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
-  #GitHub: 
+  GitHub: "http://www.github.com/assaeunji"
 
 
 # Sidebar Avatar
